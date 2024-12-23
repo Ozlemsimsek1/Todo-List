@@ -1,0 +1,77 @@
+.App {
+  margin: 10;
+  padding: 10;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: rgb(243, 243, 243);
+  font-style: italic;
+}
+
+.todo-create {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  color: rgb(245, 212, 212);
+  font-style: italic;
+ 
+}
+
+.todo-input {
+  width: 100%;
+  padding: 10px 0px;
+  border: rgb(138, 102, 37);
+  border-bottom: 1px solid lightgrey;
+  outline: wheat;
+  margin-top: 55px;
+  font-weight: 700;
+  color: blue;
+  font-style: italic;
+}
+
+.todo-create-button {
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(243, 243, 243);
+  font-weight: 1000;
+  cursor: pointer;
+  color: rgb(27, 13, 104);
+  font-style: italic;
+  
+
+
+}
+
+
+.todo-icons {
+  font-size: 25px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Tüm ekranı kaplasın */
+  background-image: url('/wallpaperbetter.jpg');
+
+
+  background-size: cover; /* Resmi tam ekran ölçeklendir */
+  background-position: center; /* Ortala */
+  background-repeat: no-repeat; /* Tekrar etme */
+}
